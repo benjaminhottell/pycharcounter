@@ -1,0 +1,14 @@
+[project]
+name = "charcounter"
+description = 'Script to count characters and print the result as a CSV file'
+version = '0.0.0'
+authors = [{name = "Benjamin Hottell", email = "benjaminhottell@gmail.com"}]
+license={file = "LICENSE"}
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+charcounter="charcounter:main"
+
